@@ -9,7 +9,6 @@ export const TodoPageList = styled.li`
 	justify-content: space-between;
 	align-items: center;
 	text-transform: capitalize;
-
 	& .active {
 		opacity: 0.5;
 		text-decoration: line-through;

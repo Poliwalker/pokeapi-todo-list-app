@@ -12,9 +12,4 @@ export const LinkItemsStyled = styled(NavLink)`
 		padding: 0 10px;
 		border-radius: 5px;
 	}
-
-	&.pending {
-		background-color: #e11e1e;
-		color: #131415;
-	}
 `;

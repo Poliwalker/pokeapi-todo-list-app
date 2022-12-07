@@ -1,17 +1,24 @@
 import styled from 'styled-components';
-import { POKEMON_TYPE_COLORS } from '../../../DataPoke/Colors';
 
 export const CardPokeContainer = styled.div`
 	width: 300px;
 	height: 400px;
 	margin: 20px;
 	padding: 20px;
-	background-color: ${({ type }) => POKEMON_TYPE_COLORS[type]};
+	background-color: #131415;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 	border-radius: 10px;
+	border: 1px solid #fff;
+`;
+
+export const CardPokeNumberNameContainer = styled.div`
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 `;
 
 export const CardPokeDataContainer = styled.div`
@@ -27,18 +34,21 @@ export const CardPokeImage = styled.img`
 `;
 
 export const CardPokeName = styled.h2`
-	font-size: 20px;
+	font-size: 30px;
+	color: #ef3e33;
 `;
 export const CardPokeType = styled.h3`
 	font-size: 15px;
 `;
 
 export const CardPokeButton = styled.button`
-	width: 100px;
-	height: 30px;
+	padding: 5px;
 	border: none;
-	border-radius: 5px;
-	background-color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 50px;
+	background-color: #ef3e33;
+	color: #fff;
 `;
 
 export const CardTypeContainerStyled = styled.div`
@@ -47,8 +57,8 @@ export const CardTypeContainerStyled = styled.div`
 	gap: 10px;
 	& p {
 		font-weight: 400;
-		font-size: 14px;
+		font-size: 18px;
 		line-height: 17px;
-		color: #686868;
+		color: #7a7a7a;
 	}
 `;

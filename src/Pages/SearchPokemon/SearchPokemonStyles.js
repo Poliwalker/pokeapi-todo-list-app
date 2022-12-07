@@ -17,6 +17,6 @@ export const SearchPokemonTitle = styled.h2`
 	font-weight: 700;
 	color: #fff;
 	background-color: red;
-	padding: 1rem 5rem;
+	padding: 1rem 4rem;
 	border-radius: 10px;
 `;

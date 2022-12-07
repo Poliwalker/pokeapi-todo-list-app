@@ -12,7 +12,7 @@ const Navbar = () => {
 	const navigate = useNavigate();
 	return (
 		<NavbarContainer>
-			<NavbarLogo onClick={() => navigate('/home')}>
+			<NavbarLogo onClick={() => navigate('/')}>
 				<img
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png"
 					alt="Pokebola-logo"
@@ -21,7 +21,7 @@ const Navbar = () => {
 			</NavbarLogo>
 
 			<LinkContainerStyled>
-				<LinkItems to="/home">Home</LinkItems>
+				<LinkItems to="/">Home</LinkItems>
 				<LinkItems to="/todo">Todo</LinkItems>
 				<LinkItems to="/pokedex">Pokedex</LinkItems>
 			</LinkContainerStyled>

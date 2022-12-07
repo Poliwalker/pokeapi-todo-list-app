@@ -29,7 +29,7 @@ const SearchPokemon = () => {
 			const { data } = await axios.get(
 				`https://pokeapi.co/api/v2/pokemon/${selectedPokemon}`
 			);
-
+			console.log(data);
 			setData(data);
 		} catch (error) {
 			setError('Pokemon not found');

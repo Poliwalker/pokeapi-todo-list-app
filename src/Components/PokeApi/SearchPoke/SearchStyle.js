@@ -18,4 +18,7 @@ export const SearchPokemonInput = styled.input`
 	font-size: 1rem;
 	font-weight: 700;
 	color: #131415;
+	&:focus {
+		outline: none;
+	}
 `;
