@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { tablet, mobile } from '../../Media/Queries';
 
 export const NavbarContainer = styled.nav`
 	width: 100%;
@@ -27,6 +28,9 @@ export const TitleStyled = styled.h2`
 	font-size: 24px;
 	line-height: 40px;
 	color: white;
+	${tablet} {
+		display: none;
+	}
 `;
 
 export const LinkContainerStyled = styled.div`
@@ -34,4 +38,7 @@ export const LinkContainerStyled = styled.div`
 	justify-content: center;
 	align-items: center;
 	gap: 45px;
+	${mobile} {
+		gap: 20px;
+	}
 `;

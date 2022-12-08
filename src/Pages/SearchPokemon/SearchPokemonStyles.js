@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { mobile } from '../../Media/Queries';
 
 export const SearchPokemonRender = styled.div`
 	display: flex;
@@ -19,4 +20,7 @@ export const SearchPokemonTitle = styled.h2`
 	background-color: red;
 	padding: 1rem 4rem;
 	border-radius: 10px;
+	${mobile} {
+		padding: 1rem 2rem;
+	}
 `;
