@@ -6,6 +6,7 @@ export const TodoPageList = styled.li`
 	padding: 10px;
 	margin: 10px 0;
 	display: flex;
+	overflow: auto;
 	justify-content: space-between;
 	align-items: center;
 	text-transform: capitalize;
