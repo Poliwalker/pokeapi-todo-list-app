@@ -12,6 +12,9 @@ export const HomeContainer = styled.div`
 	padding-top: 30px;
 	margin-top: 2rem;
 	border-radius: 10px;
+	${tablet} {
+		width: 80%;
+	}
 `;
 
 export const HomeTitle = styled.h1`
@@ -28,9 +31,8 @@ export const SubtitleHome = styled.h2`
 
 export const GifHome = styled.img`
 	width: 300px;
-	height: auto;
+	height: 200px;
 	margin-top: 50px;
-
 	${tablet} {
 		width: 80%;
 	}
