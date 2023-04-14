@@ -11,7 +11,7 @@ export const CardPokeContainer = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	border-radius: 10px;
-	border: 1px solid #fff;
+	border: 1px solid #4747ff;
 `;
 
 export const CardPokeNumberNameContainer = styled.div`

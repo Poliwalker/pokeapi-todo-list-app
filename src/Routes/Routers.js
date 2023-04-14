@@ -14,7 +14,7 @@ const Routers = () => {
 					<Route path="/" element={<Home />} />
 					<Route path="/todo" element={<TodoPage />} />
 					<Route path="/pokedex" element={<SearchPokemon />} />
-					<Route path="*" element="Pagina No encontrada" />
+					<Route path="*" element={<Page404 />} />
 				</Routes>
 			</Layout>
 		</BrowserRouter>

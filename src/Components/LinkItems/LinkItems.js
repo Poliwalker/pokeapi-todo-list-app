@@ -1,16 +1,11 @@
-import React from 'react';
+import { useSelector } from 'react-redux';
 import { LinkItemsStyled } from './LinkItemsStyles';
-import { useContext } from 'react';
-import { DataContext } from '../../Context/ContextTodo';
 
 const LinkItems = ({ to, children }) => {
-	const [todos, setTodos] = useContext(DataContext);
+	const todos = useSelector((state) => state.todos);
 
 	return (
-		<LinkItemsStyled
-			className={({ todos }) => (todos.complete ? 'active' : '')}
-			to={to}
-		>
+		<LinkItemsStyled to={to} task={todos.length}>
 			{children}
 		</LinkItemsStyled>
 	);

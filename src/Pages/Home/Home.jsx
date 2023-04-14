@@ -4,13 +4,8 @@ import { GifHome, HomeContainer, HomeTitle, SubtitleHome } from './HomeStyles';
 const Home = () => {
 	return (
 		<HomeContainer>
-			<HomeTitle>Entrega N°2</HomeTitle>
-			<SubtitleHome>Entrega Todo y PokeApi Pokedex</SubtitleHome>
-
-			<GifHome
-				src="https://acegif.com/wp-content/uploads/gifs/spongebob-rainbow-1.gif"
-				alt=""
-			/>
+			<HomeTitle>Entrega N°3</HomeTitle>
+			<SubtitleHome> React-Toolkit</SubtitleHome>
 		</HomeContainer>
 	);
 };
