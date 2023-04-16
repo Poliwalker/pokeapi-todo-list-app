@@ -53,7 +53,6 @@ const TodoPage = () => {
 				</FormContainer>
 				<RenderTaskContainer>
 					<TaskContainer>
-						<h3>Esto es lo que tenes que hacer</h3>
 						{todos.map((todo) => (
 							<TaskStyled key={todo.id}>
 								{todo.name}

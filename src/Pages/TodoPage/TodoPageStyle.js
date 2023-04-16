@@ -62,11 +62,6 @@ export const RenderTaskContainer = styled.div`
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	& h3 {
-		color: #ffffff;
-		font-size: 36px;
-		background-color: #4747ff;
-	}
 `;
 
 export const TaskContainer = styled.ul`
@@ -85,11 +80,13 @@ export const ButtonContainer = styled.div`
 export const TaskStyled = styled.li`
 	background-color: #4747ff;
 	color: #ffffff;
-	padding: 5px;
+	padding: 5px 10px;
 	border-radius: 5px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
 `;
 
 export const DeleteIcon = styled(TiCancel)`
